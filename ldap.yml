@@ -9,4 +9,4 @@
     pri_domain_name: ravnik.home
   roles:
     - mrlesmithjr.openldap
-    - ansible-etc-hosts
+    - mrlesmithjr.etc-hosts
