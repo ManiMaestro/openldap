@@ -10,7 +10,7 @@
   tasks:
     - name: Include ansible-etc-hosts
       include_role:
-        name: ansible-etc-hosts
+        src: https://github.com/mrlesmithjr/ansible-etc-hosts.git
     - name: Include ansible-openldap
       include_role:
         name: mrlesmithjr.openldap
